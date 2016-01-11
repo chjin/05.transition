@@ -1,0 +1,7 @@
+/*
+    transition : 속성명, 전환시간, 가속도 설정(ease,linear), 지연시간
+                *가상선택자 :hover를 이용하여 마우스 호비시 전환효과 설정함.
+*/
+div { width:400px; height:400px; background:red;
+    margin:100px  auto; transition:all 1s ease 0s; }
+div:hover { transform:rotate(45deg); background:blue;}
